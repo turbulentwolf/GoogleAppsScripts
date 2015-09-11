@@ -1,0 +1,1 @@
+This allows for regexextraction within Google Sheets and returns all matches (vs the default regexextract only returning one). The regex pattern is in the script, currently, but could be passed as an argument in the function with some modification.
