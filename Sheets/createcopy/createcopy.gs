@@ -1,6 +1,6 @@
 function onOpen() {
   var spreadsheet = SpreadsheetApp.getActive();
-  var menuItems=[{name: 'Make a Copy', functionName: 'makeCopyOfSpreadsheet'}];
+  var menuItems=[{name: 'Make a Copy (Values Only)', functionName: 'makeCopyOfSpreadsheet'}];
   spreadsheet.addMenu('Script', menuItems);    
 };
 
