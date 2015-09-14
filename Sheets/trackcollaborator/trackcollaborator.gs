@@ -1,5 +1,6 @@
 function onEdit(event)
 { 
+  var sheet = event.source.getActiveSheet();
   var actRng = event.source.getActiveRange();
   var index = actRng.getRowIndex();
   var cindex = actRng.getColumnIndex();
