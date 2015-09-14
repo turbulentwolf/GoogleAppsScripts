@@ -1,6 +1,5 @@
 function onEdit(event)
 { 
-  event.activate(form);
   var actRng = event.source.getActiveRange();
   var index = actRng.getRowIndex();
   var cindex = actRng.getColumnIndex();
