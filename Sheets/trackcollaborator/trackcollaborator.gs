@@ -13,4 +13,4 @@ function onEdit(event)
   
   var user = Session.getActiveUser().getEmail();
   sheet.getRange(index, (dateCol - 1)).setValue(user);
-}
+};
