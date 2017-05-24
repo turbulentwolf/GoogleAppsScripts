@@ -14,7 +14,7 @@ It also goes without saying that these are not official / sanctioned by Google.
   * Useful for when you want to export a copy of a sheet into excel but there are formulas that don't carry over correctly (e.g. query() functions).
 	
 ### listsheets
-	* Provides a vertical array of the names of all of the sheets.
+  * Provides a vertical array of the names of all of the sheets.
 
 ### regexextractallrange
   * Similar to Sheet's regexextract() function except this one will return an array if multiple hits are found.
